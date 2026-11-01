@@ -12,7 +12,7 @@ import json
 import os
 
 from openai import OpenAI
-from tools import find_location
+from agent.tools import find_location
 
 # ---------------------------------------------------------------------------
 # Config (can be overridden with environment variables)
